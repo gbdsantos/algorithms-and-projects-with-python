@@ -12,7 +12,7 @@ for letter in myString:
         pass
     print(letter)
 
-#Case 3
+#Case 3 
 myString = "Guilherme"
 for letter in myString:
     if letter == 'h':
