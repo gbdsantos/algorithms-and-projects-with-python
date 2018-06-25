@@ -127,7 +127,7 @@ while True:
                 print('PLAYER 1 HAS WON!!')
                 game_on = False
             else:
-                if full_board_check(the_board)
+                if full_board_check(the_board):
                     display_board(the_board)
                     print('TIE GAME!')
                     game_on = False
@@ -148,7 +148,7 @@ while True:
                     print('PLAYER 2 HAS WON!!')
                     game_on = False
                 else:
-                    if full_board_check(the_board)
+                    if full_board_check(the_board):
                         display_board(the_board)
                         print('TIE GAME!')
                         game_on = False
